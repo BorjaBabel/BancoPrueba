@@ -1,20 +1,20 @@
 package es.babel.bankExercise.service;
 
+
 import es.babel.bankExercise.model.BankAccount;
 import es.babel.bankExercise.model.Client;
-import es.babel.bankExercise.model.Operation;
-import es.babel.bankExercise.model.OperationDeposit;
 import es.babel.bankExercise.repository.BankAccountRepository;
 import es.babel.bankExercise.repository.ClienteRepository;
 import es.babel.bankExercise.repository.OperationRepository;
-import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+
 
 @Service
 public class BankAccountService implements IBankAccountService{
